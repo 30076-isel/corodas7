@@ -1,0 +1,83 @@
+.right
+{
+	color:blue;
+}
+
+table
+{
+	color:blue;
+	left:10px;
+	top:10px;
+}
+
+.right h1
+{
+	text-align:center;
+}
+
+#eucaristia
+{
+	text-align:left;
+}
+
+#musicas, #leituras
+{
+	display:inline-block;
+	width: 50%;
+	height:400px;
+	position:absolute;	
+}
+
+#musicas
+{
+	left: 10px;
+	border-right:solid;
+}
+
+#leituras
+{
+	
+	width:45%;
+	left:52%;
+}
+#musicas h3
+{
+border-style:dashed;
+float:left;
+}
+#leituras h3
+{
+	float:left;
+	margin-bottom:0px;
+	margin-right:10px;
+	border-style:dashed;
+}
+
+#rodape 
+{
+	position:absolute;
+	bottom:-1px;
+	width:100%;
+}
+
+table
+{
+	position:absolute;
+	left:20%;	
+}
+
+#musicas hr
+{
+	width:200%;
+}
+
+#leituras hr
+{
+	width:150%;
+}
+.auxLinks
+{
+	position:absolute;
+	/*top:350px;*/
+	bottom:-20px;
+}

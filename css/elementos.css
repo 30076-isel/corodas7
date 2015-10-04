@@ -1,0 +1,17 @@
+
+.right
+{
+	color:blue;
+}
+
+.right h1
+{
+	left:0%;
+}
+
+#coroElements
+{
+	-moz-column-count:4; /* Firefox */
+	-webkit-column-count:4; /* Safari and Chrome */
+	column-count:4;
+}

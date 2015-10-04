@@ -1,0 +1,48 @@
+h1,h2
+{
+	color:blue;
+}
+
+p
+{
+	color:blue;
+	text-align:center;
+}
+
+h3
+{
+	color:red;
+	/*text-shadow: 5px 5px 5px #FF0000;*/
+	text-align:center;
+}
+
+h6
+{
+	color:blue;
+	margin:0px;
+}
+
+#divEventos
+{
+	border-style:groove;
+	color:blue;
+	border-color:pink;
+	width:50%;
+	left:25%;
+	position:absolute;
+}
+
+#Novidades
+{
+	color:red;
+	text-shadow: 5px 5px 5px #FF0000;
+	text-decoration: blink;
+}
+
+#rodape 
+{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	font-weight:900;
+}

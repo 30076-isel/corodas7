@@ -1,0 +1,111 @@
+
+body
+{
+	background-size:100% 100%;
+	-moz-background-size:100% 100%; /* Firefox 3.6 and earlier */
+	-webkit-background-size:100% 100%; /* Safari */
+	background-repeat:no-repeat;
+	color:white;
+}
+
+/*BARRA MENU*/
+#tituloMenu
+{
+	background-color: #3B5998;
+	min-width: 90px;
+	position:relative;
+	border-radius:20px;
+	-moz-border-radius:20px; /* Firefox 3.6 and earlier */
+	-webkit-border-radius:20px; /* Safari */
+}
+
+#title
+{
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	color:white;
+	position:relative;
+	left:2%;
+	display:inline;
+}
+
+#tituloMenu h3
+{
+	font-family:Arial;
+	margin-bottom:0px;
+	display:inline;
+	position:relative;
+	left:65%;
+	bottom:0px;
+	color:black;
+	text-shadow: 5px 5px 5px #FF0000;
+}
+
+object
+{
+	margin-left:5px;
+	margin-top:10px;
+	width:80; 
+	height:40;
+}
+
+embed
+{
+	width:80;
+	height:40;
+}
+
+/*CORPO PRINCIPAL DO SITE*/
+
+#bodySite
+{
+	margin: 0;
+    width: 100%;
+	line-height: 150%;
+	height:90%;
+	padding-top:5px;
+}
+
+.left
+{	
+	width: 80px;
+	height:100%;
+	background-color:#C8C8C8 ;
+	border:1px solid black;
+	margin-left:3px;
+	position:relative;
+	float: left;
+}
+
+.right
+{
+	min-width: 0px;
+	height:100%;
+	position:relative;
+	background-color:#ffffff;
+	border:1px solid black;
+	margin-left: 90px;
+	/* for IE */
+	filter:alpha(opacity=60);
+	/* CSS3 standard */
+	opacity:0.6;
+}
+.left a
+{
+	text-decoration:none;
+}
+
+.menuAnc:link,.menuAnc:visited
+{
+	display:block;
+	font-weight:bold;
+	text-align:center;
+	/*margin-bottom:56px;*/
+	margin-bottom:50px;
+	margin-bottom:50px;
+	margin-top:25px;
+	background-color:#989898;
+}
+.menuAnc:hover,.menuAnc:active
+{
+	background-color:#0066FF;
+}
